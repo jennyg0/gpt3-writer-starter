@@ -7,7 +7,7 @@ const configuration = new Configuration({
 const openai = new OpenAIApi(configuration);
 
 const basePromptPrefix =
-  'Please recommend some book titles, including a short review, that I would like based off the fact I enjoy the book:';
+  'Please update this copy to be in the present tense with proper grammar:';
 const generateAction = async (req, res) => {
   console.log(`API: ${basePromptPrefix}${req.body.userInput}\n`);
 

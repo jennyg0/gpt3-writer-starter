@@ -40,12 +40,10 @@ const Home = () => {
       <div className='container'>
         <div className='header'>
           <div className='header-title'>
-            <h1>get lit</h1>
+            <h1>present</h1>
           </div>
           <div className='header-subtitle'>
-            <h2>
-              tell us a book you like and we'll tell you what to read next
-            </h2>
+            <h2>write what you want to change to present tense</h2>
           </div>
         </div>
         <div className='prompt-container'>
