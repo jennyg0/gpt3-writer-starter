@@ -44,7 +44,7 @@ const Home = () => {
           </div>
           <div className='header-subtitle'>
             <h2>
-              tell us a book you like and we will tell you what to read next
+              tell us a book you like and we'll tell you what to read next
             </h2>
           </div>
         </div>
@@ -64,7 +64,10 @@ const Home = () => {
             >
               <div className='generate'>
                 {isGenerating ? (
-                  <span className='loader'></span>
+                  <>
+                    <span className='loader'></span>
+                    <span>thinking...</span>
+                  </>
                 ) : (
                   <p>Generate</p>
                 )}
